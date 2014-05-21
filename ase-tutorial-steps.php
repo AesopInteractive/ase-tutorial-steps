@@ -22,6 +22,7 @@ class aseTutorialSteps {
 					'type' 			=> 'group',
 					'repeatable'     => true,
 					'repeatable_max' => 20,
+					'sortable'		=> true,
 					'desc'			=> __('Add text and image for each step. use this shortcode in the post to show the step list', 'aesop-core'),
 					'fields' 		=> array(
 						array(
