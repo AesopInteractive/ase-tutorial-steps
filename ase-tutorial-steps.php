@@ -69,8 +69,9 @@ class aseTutorialSteps {
 
 				$img = $getimg ? wp_get_attachment_url( $getimg ) : false;
 
+				$noimgclass = $getimg ? '' : 'class="no-img"';
 				?>
-					<li>
+					<li <?php echo $noimgclass;?> >
 						<p><?php echo $text;?></p>
 
 						<?php if ($getimg) {
