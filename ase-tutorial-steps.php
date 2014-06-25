@@ -14,7 +14,7 @@ class aseTutorialSteps {
 	function meta( array $meta_boxes ) {
 		$meta_boxes[] = array(
 			'title' => __('Post Tutorial Steps', 'aesop-core'),
-			'pages' => 'post',
+			'pages' => array('post','ase_docs'),
 			'fields' => array(
 				array(
 					'id' 			=> 'ase_post_tutorial_steps',
